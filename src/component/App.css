@@ -1,0 +1,441 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+
+.btn{
+  font-size: 1.7rem;
+  font-family: 'Montserrat', sans-serif;
+  padding:10px 20px;
+  background-color: orangered;
+  color:white;
+  letter-spacing: 0.2rem;
+  border-radius: 5px;
+  transition: 00.3s;
+}
+.btn:hover{
+  background-color:rgb(248, 99, 45);
+  color:black;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+/************* Landing Page *********************/
+.navbar{
+  padding: 30px;
+  background-color: white !important;
+  border-bottom: 1px solid black;
+}
+.navbar-brand{
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  color:orangered !important;
+}
+
+.nav-link{
+  font-size: 2rem;
+  margin-left: 15px;
+  color:black !important;
+}
+.nav-link:nth-child(1){
+  margin-left: 0px;
+}
+.nav-link:hover{
+  color: rgba(0,0,0,0.6) !important;
+}
+.navbar-toggler{
+  background-color:white !important;
+}
+
+
+/************* Landing Page *********************/
+.landingPage{
+  width:100%;
+  height:100%;
+}
+ img{
+  width:100%;
+  height:85vh;
+  background-position: 100% 100%;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.landContent{
+  position:absolute;
+  top:30%;
+  left:15%;
+  padding:15px;
+  border-radius: 5px;
+  text-align: left;
+}
+.landContent h2{
+  color:cornsilk;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+}
+.landContent h1{
+  color:white;
+  font-size: 5rem;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*******************About Page *********************/
+
+
+.aboutmain2{
+  background-color: black;
+  padding-bottom: 5rem;
+}
+.aboutmain2 .abouHeading{
+  text-align: center;
+}
+.aboutmain2 .abouHeading p{
+  font-size: 2rem;
+  color:white;
+  padding-top: 5rem;
+}
+.aboutmain2 .abouHeading h2{
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  letter-spacing: 0.2rem;
+  text-transform: capitalize;
+}
+.aboutmain2 .abouHeading h1{
+  font-size: 2rem;
+  color:white;
+}
+.aboutexp{
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color:white;
+  border-right: 2px solid white;
+}
+.aboutexp:nth-child(3){
+  border-right: none;
+}
+.aboutexp h1{
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  color:orangered;
+}
+.aboutexp h2{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+.aboutmain3{
+  margin-top: 7rem;
+}
+
+/*******************Service Page *********************/
+
+
+.serviceMain2{
+  margin-top: 6rem;
+}
+.service h4{
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.service h1{
+  font-size: 2.3rem;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 1.5rem;
+}
+.service p{
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.service2 p{
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.service2 .fa{
+  padding-right: 1rem;
+  color: orangered;
+}
+.service3{
+  margin-top: 5rem;
+  background-color: orangered;
+  box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.5);
+}
+.service3 .offerDiv{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ height:200px;
+}
+.offerDiv .offer1 p{
+ font-size: 2.5rem;
+}
+.offerDiv .offer1 span{
+  font-size: 4.5rem;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+ }
+ .offerDiv .offer1 h2{
+  font-size: 2.5rem;
+  letter-spacing: 0.2rem;
+ }
+ .offerDiv .offer2{
+   border-right: 2px dotted black;
+   height:80%;
+   position: relative;
+ }
+ .offerDiv .offer2 .cezer{
+   position: absolute;
+   font-size: 7rem;
+   transform: rotate(-90deg);
+   right:-33px;
+   top:45px;
+   color:white;
+ }
+ .offerDiv2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+ .offerDiv2 h3{
+   font-size: 2.5rem;
+ }
+ .offerDiv2 h2{
+  font-size: 3rem;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+/*******************Client Page *********************/
+
+.ourClient{
+  margin-top: 5rem;
+  padding-bottom: 5rem;
+}
+.ourClient h2{
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+.ourClient span{
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: orangered;
+}
+.ourClient .clientContent
+{
+  box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.4);
+  width:350px;
+  padding:15px;
+  height:210px;
+  margin:0.5rem;
+  margin-top: 2rem;
+}
+.ourClient .clientContent p
+{
+  font-size: 1.5rem;
+  margin-top:0.5rem;
+}
+.ourClient .clientContent h5
+{
+  font-size: 1.5rem;
+  margin-top:1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color:orangered;
+  text-transform: capitalize;
+}
+
+/*******************Contact Page *********************/
+
+.contactPage{
+  margin-top: 5rem;
+}
+.contactContain{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.contactContain h1{
+  margin-top: 2rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+.contactContain h2{
+  margin-top: 1rem;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color:orangered;
+}
+.contactContain p{
+  margin-top: 0.5rem;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+.addressdiv{
+  border-top: 1px solid black;
+}
+.addFa{
+  margin-right: 1.5rem;
+  font-size: 2rem;
+  color:orangered;
+}
+.addTime h6{
+  font-size: 1.5rem;
+}
+
+/********************Appointment ********************/
+
+.conatctForm{
+  margin: 0 auto;
+  width:500px;
+  height:auto;
+  padding:20px 10px;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px 2px rgba(0,0,0,0.4);
+}
+.form-group{
+  margin-top: 15px;
+}
+.form-group input{
+  padding: 8px;
+  box-shadow: none !important;
+  font-size: 1.8rem;
+  outline: none;
+}
+.form-group input:focus{
+  border: 1px solid #ddd;
+}
+
+.form-group textarea{
+  width:100%;
+  height:100px;
+  padding: 8px;
+  font-size: 1.8rem;
+  outline: none;
+  border: 1px solid #ddd;
+}
+.formBtn{
+  padding:10px 20px;
+  border: none;
+  font-size: 1.7rem;
+  background-color:orangered;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.3rem;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.formBtn:hover{
+  transform: rotate(4deg);
+}
+.formDetail{
+  width:100%;
+  height:auto;
+  margin: 30px;
+  padding: 10px;
+  display: flex;
+ justify-content: space-around;
+ align-items: center;
+ flex-wrap: wrap;
+ box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.2);
+}
+.formDetail p{
+  font-size: 1.5rem;
+}
+
+/****************** Footer *********************/
+
+footer{
+  position: relative;
+  top:3rem;
+  bottom: 0;
+  width:100%;
+  padding: 20px;
+  text-align: center;
+  background-color: orangered;
+}
+footer p{
+  font-size: 1.7rem;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/**************** Responsive Code *****************/
+
+@media screen and (max-width:600px){
+  html{
+    font-size: 50%;
+  }
+  .nav-link{
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .landContent{
+    left:5%;
+    padding:10px;
+    text-align: center;
+  }
+  .landContent h1{
+    font-size: 4rem;
+  }
+  .aboutexp{
+    border-right: none;
+  }
+  .aboutmain3 img{
+    margin-top: 1.5rem;
+  }
+  .ourClient .clientContent
+{
+  width:300px;
+}
+.service h4 ,h1{
+  text-align: center;
+}
+.service h1{
+  line-height: 3.5rem;
+}
+.service p{
+  margin-top: 1.8rem;
+  text-align: justify;
+}
+.service2 p{
+  margin-top: 2rem;
+ margin-left: 5rem;
+ }
+ .offerDiv .offer2 .cezer{
+  right:-26px;
+  top:45px;
+}
+.offerDiv2 h2{
+ text-align: center;
+}
+.addTime{
+  flex: 1;
+  text-align: center;
+}
+.conatctForm{
+  width:300px;
+}
+.formDetail{
+  margin:20px auto;
+  width:90%;
+  flex-wrap: wrap;
+}
+}
